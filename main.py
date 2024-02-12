@@ -2,7 +2,7 @@ from sqlController import*
 
 
 if __name__ == '__main__':
-    db_name = 'PocketGuy'
+    db_name = 'Output'
 
     db = Database(db_name)
     for table_name in db.refer_tables():
